@@ -8,6 +8,7 @@
     h2.pc{display: block;}  
     button.m{display: none;}
     .pc{display: block;}
+    .m{display: none;}
     
     @font-face {
         font-family: 'Apple SD Gothic Neo';
@@ -135,5 +136,317 @@
     header .wrap .header_Bottom .icon button a span{
         font-size: 40px;
         font-weight: bolder;
+    }
+
+    /* banner */
+    .banner{}
+    .banner .wrap{}
+    .banner .wrap .banner_Top{
+    }
+    .banner .wrap .banner_Top .tabs{
+        justify-content: left;
+        padding-left:20px ;
+    }
+    .banner .wrap .banner_Top .tabs .tab{
+        display: flex;
+        font-family: 'Apple SD Gothic Neo';
+        font-size: 17px;
+        font-weight: 700;
+        border-bottom: 5px solid #d9d9d9;
+        padding: 4px 20px;
+    }
+    .banner .wrap .banner_Top .tabs .tab:first-child{
+        border-bottom: 5px solid #000;
+    }
+    .banner .wrap .banner_Top .tab-content:first-child{
+        display: block;
+    }
+    .banner .wrap .banner_Top .tab-content{
+        display: none;
+    }
+    .banner .wrap .banner_Top .tab-content .tabSlide{}
+    .banner .wrap .banner_Top .tab-content .tabSlide .swiper-wrapper{}
+    .banner .wrap .banner_Top .tab-content .tabSlide .swiper-wrapper .product{
+        position: relative;
+    }
+    .banner .wrap .banner_Top .tab-content .tabSlide .swiper-wrapper .product img{
+        border-radius: 36px;
+        height: 265px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .banner .wrap .banner_Top .tab-content .tabSlide .swiper-wrapper .product p{
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 700;
+        font-size: 23px;
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .banner .wrap .banner_Top .tab-content .tabSlide .swiper-wrapper .swiper-scrollbar{
+        display: none;
+    }
+    .banner .wrap .banner_Top .tab-content:nth-child(2){
+        padding: 0 20px;
+    }
+    .banner .wrap .banner_Top .tab-content .menu{
+        display: flex;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .service{
+        margin-right: 50px;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .service span{
+    }
+    .banner .wrap .banner_Top .tab-content .menu .service .list{}
+    .banner .wrap .banner_Top .tab-content .menu .service .list p:first-child{
+        margin-top: 10px;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .service .list p{
+        margin-bottom: 10px;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .service .list p a{
+        font-size: 19px;
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 300;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .more{
+        margin-right: 40px;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .more span{
+        font-family:'Apple SD Gothic Neo' ;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .more p{
+        margin: 10px 0;
+    }
+    .banner .wrap .banner_Top .tab-content .menu .more p a{
+        font-size: 19px;
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 300;
+    }
+    .banner .wrap .banner_Top .tab-content .service_link{
+        display: block;
+        background-color: #bc261d;
+        padding: 20px 30px;
+    }
+    .banner .wrap .banner_Top .tab-content .service_link p{
+        margin-bottom: 20px;
+    }
+    .banner .wrap .banner_Top .tab-content .service_link p a{
+        font-family:'Apple SD Gothic Neo' ;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .banner .wrap .banner_Top .tab-content .service_link button{}
+    .banner .wrap .banner_Top .tab-content .service_link button a{}
+    .banner .wrap .banner_Top .tab-content .service_link button a span{
+        background-color: #fff;
+        padding: 10px;
+        color: #000;
+        border-radius: 50%;
+    }
+    .banner .wrap .banner_Top .tab-content .link{
+        display: none;
+    }
+    .banner .wrap .banner_Top .tab-content:nth-child(3){
+        padding: 0 20px;
+    }
+    .banner .wrap .banner_Top .tab-content:nth-child(3) .link{
+        display: none;
+    }
+    .banner .wrap .banner_Top .tab-content:nth-child(3) .link p a {
+        font-size: 19px;
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 300;
+    }
+    .banner .wrap .banner_Top .tab-content .event{
+        margin-right: 40px;
+    }
+    .banner .wrap .banner_Top .tab-content .event span{
+        font-family:'Apple SD Gothic Neo' ;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .banner .wrap .banner_Top .tab-content .event .list{
+        margin-bottom: 15px;
+    }
+    .banner .wrap .banner_Top .tab-content .event .list p{
+        margin-bottom: 10px
+    }
+    .banner .wrap .banner_Top .tab-content .event .list p:last-child{
+        margin-bottom: 0;
+    }
+    .banner .wrap .banner_Top .tab-content .event .list p:first-child{
+        margin-top: 10px;
+    }
+    .banner .wrap .banner_Top .tab-content .event .list p a{
+        font-size: 19px;
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 300;
+    }
+    .banner .wrap .banner_Top .tab-content .event_link{
+        display: block;
+        background-color: #f0f0f0;;
+        padding: 20px 30px;
+    }
+    .banner .wrap .banner_Top .tab-content .event_link p{
+        margin-bottom: 60px;
+    }
+    .banner .wrap .banner_Top .tab-content .event_link p a{
+        font-family:'Apple SD Gothic Neo' ;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .banner .wrap .banner_Top .tab-content .event_link button{}
+    .banner .wrap .banner_Top .tab-content .event_link button a{}
+    .banner .wrap .banner_Top .tab-content .event_link button a span{
+        background-color: #fff;
+        padding: 10px;
+        color: #000;
+        border-radius: 50%;
+    }
+    
+    /* banner-bottom */
+    .banner_Bottom{
+        margin-top: 15px;
+    }
+    .banner_Bottom .banner_B{
+    }
+    .banner_Bottom .banner_B .swiper-wrapper{
+        margin-bottom: 50px;
+        
+    }
+    .banner_Bottom .banner_B .swiper-wrapper .swiper-slide{
+        
+    }
+    .banner_Bottom .banner_B .swiper-wrapper .swiper-slide a{
+        position: relative;
+    }
+    .banner_Bottom .banner_B .swiper-wrapper .swiper-slide a img{
+        border-radius:28px;
+        height:500px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+    .banner_Bottom .banner_B .swiper-wrapper .swiper-slide a .txt{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .banner_Bottom .banner_B .swiper-wrapper .swiper-slide a .txt p{
+        color: #fff;
+    }
+    .banner_Bottom .banner_B .swiper-wrapper .swiper-slide a .txt p:nth-child(1){
+        font-family:'Apple SD Gothic Neo' ;
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 13px;
+    }
+    .banner_Bottom .banner_B .swiper-wrapper .swiper-slide a .txt p:nth-child(2){
+        font-family:'Apple SD Gothic Neo' ;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .banner_Bottom .banner_B .swiper-button-next{
+        display: block;
+        position: absolute;
+        top: 45%;
+        right: 25px;
+        
+    }
+    .banner_Bottom .banner_B .swiper-button-next::after{
+        color: #fff;
+        font-weight: bold;
+    }
+    .banner_Bottom .banner_B .swiper-button-prev{
+        display: block;
+        position: absolute;
+        top: 45%;
+        left: 25px;
+    }
+    .banner_Bottom .banner_B .swiper-button-prev::after{
+        color: #fff;
+        font-weight: bold;
+    }
+    .banner_Bottom .swiper-pagination-bullet{
+        display: none;
+
+    }
+    
+    /* section1 */
+    .section1{
+    }
+    .section1 .wrap{
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 .wrap .tit{
+        margin: 0 auto;
+    }
+    .section1 .wrap h1{
+        color: #3874e1;
+        font-size: 30px;
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 900;
+        margin-bottom: 50px;
+    }
+    .section1 .wrap .tabs{
+        display: flex;
+        justify-content: space-between
+    }
+    .section1 .wrap .tabs .tab{
+        display: block;
+    }
+    .section1 .wrap .tabs .tab h2{
+        font-size: 30px;
+        font-family:'Apple SD Gothic Neo' ;
+        color:#c6c6c6;
+        font-weight: 800;
+    }
+    .section1 .wrap .tabs .tab:nth-child(1) h2{
+        font-size: 30px;
+        font-family:'Apple SD Gothic Neo' ;
+        color: #000;
+        font-weight: 900;
+    }
+    .section1 .wrap .tabs .tab:nth-child(1)  span{
+        color: #000;
+        font-size: 30px;
+    }
+    .section1 .wrap .tabs .tab span{
+        font-weight: bolder;
+        color: #c6c6c6;
+        font-size: 30px;
+    }
+    .section1 .wrap .contents{
+        margin-top: 50px;
+    }
+    .section1 .wrap .contents .image{
+        display: none;
+    }
+    .section1 .wrap .contents .image:first-child{
+        display: block;
+    }
+    .section1 .wrap .contents .image a{
+        width: 100%;
+    }
+    .section1 .wrap .contents .image a img{
+        border-radius: 12px;
+        width: 90%;
+        height: 315px;
+        object-fit: cover;
     }
 }
