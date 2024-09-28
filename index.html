@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/pc.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo.css" type="text/css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="wrap">
+                <div class="header_Top">
+                    <h1>
+                        <a href="#">
+                            <img src="./images/Dyson_logo.svg.png" alt="">
+                        </a>
+                    </h1>
+                    <button type="button" class="btn-open m">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </button>
+                    <div class="pc_nav pc">
+                        <button type="button">
+                            <a href="#">
+                                <span class="material-symbols-outlined">home</span>
+                                <p>매장찾기</p>
+                            </a>
+                        </button>
+                        <button type="button">
+                            <a href="#">
+                                <span class="material-symbols-outlined">receipt_long</span>
+                                <p>주문조회</p>
+                            </a>
+                        </button>
+                        <button type="button">
+                            <a href="#">
+                                <span class="material-symbols-outlined">build</span>
+                                <p>악세서리 및 부품찾기</p>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <nav>
+                    <div class="nav_Top">
+                        <form class="search-box" method="get">
+                            <input type="text" name="" id="" placeholder="검색어 입력">
+                            <button type="button">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                        </form>
+                        <div class="icon">
+                            <button type="button" class="cart">
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </button>
+                            <button type="button" class="btn-cls">
+                                <span class="material-symbols-outlined">close</span>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="gnb">
+                        <li>
+                            <div class="tit">
+                                <span>청소기</span>
+                                <span class="material-symbols-outlined">arrow_forward_ios<span>
+                            </div>
+                            <div class="sub-navi">
+                                <ul>
+                                    <li><a href="#">물청소기</a></li>
+                                    <li><a href="#">진공 + 물청소기</a></li>
+                                    <li><a href="#">진공청소기</a></li>
+                                    <li><a href="#">로봇 청소기</a></li>
+                                    <li><a href="#">청소기 모두보기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <span>헤어케어</span>
+                                <span class="material-symbols-outlined">arrow_forward_ios</span>
+                            </div>
+                            <div class="sub-navi">
+                                <ul>
+                                    <li><a href="#">웻앤드라이 스트레이트너</a></li>
+                                    <li><a href="#">스타일러</a></li>
+                                    <li><a href="#">드라이어</a></li>
+                                    <li><a href="#">스트레이트너</a></li>
+                                    <li><a href="#">헤어 에센셜 케어</a></li>
+                                    <li><a href="#">헤어 제품 모두보기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <span>공기청정기 및 선풍기</span>
+                                <span class="material-symbols-outlined">arrow_forward_ios</span>
+                            </div>
+                            <div class="sub-navi">
+                                <ul>
+                                    <li><a href="#">공기청정기</a></li>
+                                    <li><a href="#">가습 공기청정기</a></li>
+                                    <li><a href="#">공기청정기 및 선풍기 모두보기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <span>헤드폰</span>
+                                <span class="material-symbols-outlined">arrow_forward_ios</span>
+                            </div>
+                            <div class="sub-navi">
+                                <ul>
+                                    <li><a href="#">다이슨 존 노이즈 캔슬링 헤드폰</a></li>
+                                    <li><a href="#">다이슨 온트랙 노이즈 캔슬링 헤드폰</a></li>
+                                    <li><a href="#">헤드폰 모두보기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <span>조명</span>
+                                <span class="material-symbols-outlined">arrow_forward_ios</span>
+                            </div>
+                            <div class="sub-navi">
+                                <ul>
+                                    <li><a href="#">다이슨 솔라사이클 모프</a></li>
+                                    <li><a href="#">조명 모두보기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <span>액세서리 및 부품</span>
+                                <span class="material-symbols-outlined">arrow_forward_ios</span>
+                            </div>
+                            <div class="sub-navi">
+                                <ul>
+                                    <li><a href="#">다이슨 헤어케어 스타일링 툴</a></li>
+                                    <li><a href="#">다이슨 청소기 액세서리</a></li>
+                                    <li><a href="#">다이슨 공기청정기 필터</a></li>
+                                    <li><a href="#">액세서리 및 부품 모두보기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="sub-gnb">
+                        <li><a href="#">모든제품</a></li>
+                        <li><a href="#">매장찾기</a></li>
+                        <li><a href="#">주문조회</a></li>
+                        <li><a href="#">뉴스룸</a></li>
+                    </ul>
+                    <ul class="sub-info">
+                        <li><a href="#">비즈니스 제품</a></li>
+                        <li><a href="#">고객지원</a></li>
+                        <li><a href="#">기업정보</a></li>
+                    </ul>
+                    <ul class="connect">
+                        <li><a href="#">전화문의</a></li>
+                        <li><a href="#">이메일</a></li>
+                        <li><a href="#">카카오톡 상담</a></li>
+                    </ul>
+                </nav>
+                <div class="header_Bottom pc">
+                    <div class="sub">
+                        <button type="button">
+                            <a href="#">
+                                <p>Event</p>
+                            </a>
+                        </button>
+                        <button type="button">
+                            <a href="#">
+                                <p>Dyson Live</p>
+                            </a>
+                        </button>
+                        <button type="button">
+                            <a href="#">
+                                <p>Customer Support</p>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="icon">
+                        <button type="button" class="search">
+                            <a href="#">
+                                <span class="material-symbols-outlined">search</span>
+                            </a>
+                        </button>
+                        <button type="button" class="cart">
+                            <a href="#">
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="wrap">
+                <div class="banner_Top">
+                    <div class="tabs">
+                        <div class="tab">모든제품</div>
+                        <div class="tab">고객지원</div>
+                        <div class="tab">이벤트</div>
+                        <div class="tab">Dyson Live</div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="swiper tabSlide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <img src="./images/banner_p1.jpg" alt="">
+                                        <p>헤어케어</p>
+                                    </div>
+                                    <div class="product">
+                                        <img src="./images/banner_p2.png" alt="">
+                                        <p>공기청정기</p>
+                                    </div>
+                                    <div class="product">
+                                        <img src="./images/banner_p3.png" alt="">
+                                        <p>조명</p>
+                                    </div>
+                                    <div class="product">
+                                        <img src="./images/banner_p4.jpg" alt="">
+                                        <p>선풍기</p>
+                                    </div>
+                                    <div class="product">
+                                        <img src="./images/banner_p5.jfif" alt="">
+                                        <p>헤드폰</p>
+                                    </div>
+                                    <div class="product">
+                                        <img src="./images/banner_p6.jpg" alt="">
+                                        <p>청소기</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="banner_Bottom"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./jquery/jquery-3.7.1.min.js"></script>
+<script src="./jquery/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    //nav open,close
+    const $opn = document.querySelector(".btn-open");
+    const $cls = document.querySelector(".btn-cls");
+    $opn.addEventListener("click", () =>{
+        $("nav").stop().animate({
+            right:"0"
+        },300)
+    });
+    $cls.addEventListener("click", () =>{
+        $("nav").stop().animate({
+            right: "-100%"
+        },300)
+    });
+
+    //mobile nav 메뉴 슬라이드
+    $(".gnb .tit").on("click", function(){
+        $(this).siblings().stop().slideToggle(300);
+        $(this).parent().siblings().find(".sub-navi").slideUp()
+    })
+
+    //banner tab scroll 슬라이드
+    var bannerScroll = new Swiper(".tabSlide", {
+      direction: "horizontal",
+      slidesPerView: 0.5,
+      freeMode: true,
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      mousewheel: true,
+    });
+</script>
+</html>
