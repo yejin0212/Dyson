@@ -400,7 +400,7 @@
         color: #3874e1;
         font-size: 30px;
         font-family:'Apple SD Gothic Neo' ;
-        font-weight: 900;
+        font-weight: 700;
         margin-bottom: 50px;
     }
     .section1 .wrap .tabs{
@@ -449,4 +449,200 @@
         height: 315px;
         object-fit: cover;
     }
+
+    /* section2 */
+    .section2{
+        margin: 60px 0;
+        background-color: #000;
+        padding: 80px 0 0 80px;
+    }
+    .section2 .wrap{
+        display: flex;
+        position: relative;
+    }
+    .section2 .wrap .text{
+        /* margin-right: 130px; */
+    }
+    .section2 .wrap .text p{
+        display:inline;
+        color: #fff;
+        font-family:'Apple SD Gothic Neo' ;
+        font-size: 16px;
+        background-color: #3874e1;
+        padding: 10px;
+        align-items: center;
+    }
+    .section2 .wrap .text h1{
+        margin: 30px 0;
+    }
+    .section2 .wrap .text h1 img{
+        width: 350px;
+        margin-left: 0;
+    }
+    .section2 .wrap .text h2{
+        font-family:'Apple SD Gothic Neo' ;
+        font-size: 40px;
+        font-weight: 700;
+        color: #8c8c8c;
+        margin-bottom: 40px;
+        width: 65%;
+    }
+    .section2 .wrap .text h2 span{
+        color: #fff;
+    }
+    .section2 .wrap .text .button{
+        display: flex;
+        margin-bottom: 10px;
+        gap: 25px;
+    }
+    .section2 .wrap .text  button{}
+    .section2 .wrap .text  button a{
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 400;
+        font-size: 19px;
+        color: #fff;
+        padding: 12px 25px;
+        border: 1px solid #fff;
+    }
+    .section2 .wrap .backimg{
+        display: flex;
+        align-items: end;
+        margin-right: 200px;
+    }
+    .section2 .wrap .backimg img{
+        height: 90%;
+    }
+    .section2 .wrap .info{}
+    .section2 .wrap .info .box1{
+        width: 314px;
+        border-radius: 20px;
+        position: absolute;
+        background-color: rgba(255,255,255,0.1);  /* 요소를 반투명 처리 해준 후 */
+        backdrop-filter: blur(5px);
+        right: 30%;
+        top: 0;
+        padding: 40px 30px;
+    }
+    .section2 .wrap .info .box1 h3,
+    .section2 .wrap .info .box2 h3,
+    .section2 .wrap .info .box3 h3{
+        color: #fff;
+        font-size: 20px;
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .section2 .wrap .info .box1 p,
+    .section2 .wrap .info .box2 p,
+    .section2 .wrap .info .box3 p{
+        color: #fff;
+        font-size: 15px;
+        font-family:'Apple SD Gothic Neo' ;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    .section2 .wrap .info .box2{
+        width: 314px;
+        border-radius: 20px;
+        position: absolute;
+        background-color: rgba(255,255,255,0.1);  /* 요소를 반투명 처리 해준 후 */
+        backdrop-filter: blur(5px);
+        padding: 30px;
+        bottom: 50px;
+        right: 35%;
+    }
+    .section2 .wrap .info .box3{
+        width: 314px;
+        border-radius: 20px;
+        position: absolute;
+        background-color: rgba(255,255,255,0.1);  /* 요소를 반투명 처리 해준 후 */
+        backdrop-filter: blur(5px);
+        padding: 30px;
+        bottom: 40%;
+        right:7%;
+    }
+
+    /* section3 */
+.section3{}
+.section3 .wrap{
+
+}
+.section3 .wrap .tit{
+}
+.section3 .wrap .tit h1{
+    color: #3874e1;
+    font-size: 27px;
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section3 .wrap .sec3_scroll{}
+.section3 .wrap .sec3_scroll .swiper-wrapper{}
+.section3 .wrap .sec3_scroll .swiper-wrapper .swiper-slide{
+    margin-bottom: 30px;
+}
+.section3 .wrap .sec3_scroll .swiper-wrapper .swiper-slide a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.section3 .wrap .sec3_scroll .swiper-wrapper .swiper-slide a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0,0,0,0.8));
+    position: absolute;    
+    bottom: 0;
+    left: 0; 
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.section3 .wrap .sec3_scroll .swiper-wrapper .swiper-slide a img{
+    border-radius: 16px;
+}
+.section3 .wrap .sec3_scroll a p{
+    font-size: 20px;
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    z-index: 9999;
+    margin: 0 auto;
+
+}
+.section3 .wrap .sec3_scroll .swiper-scrollbar{
+    width: 60%;
+}
+.section3 .wrap .sec3_scroll .swiper-scrollbar-horizontal{
+    background-color: #9c9797;
+    height: 7px;
+    border-radius: 0;
+}
+.section3 .wrap .sec3_scroll .swiper-scrollbar-drag{
+    background-color: #3874e1;
+    height: 7px;
+    border-radius: 0;
+}
+.section3 .swiper-button-next{
+    display: block;
+    margin-right: 10px;
+}
+.section3 .swiper-button-next::after{
+    color: #fff;
+    font-weight: bolder;
+}
+.section3 .swiper-button-prev{
+    display: block;
+    margin-left: 10px;
+}
+.section3 .swiper-button-prev::after{
+    color: #fff;
+    font-weight: bolder;
+}
+.section4 .swiper-slide img{
+    width: 100px;
+}
 }
