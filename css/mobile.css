@@ -233,12 +233,14 @@ header .wrap nav .connect li a{
 
 /* banner */
 .banner{}
-.banner .wrap{}
+.banner .wrap{
+    padding-left: 10px;
+}
 .banner .wrap .banner_Top{
 }
 .banner .wrap .banner_Top .tabs{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 40px 0 20px 0 ;
 }
 .banner .wrap .banner_Top .tabs .tab{
@@ -353,7 +355,7 @@ header .wrap nav .connect li a{
     padding: 0 20px;
 }
 .banner .wrap .banner_Top .tab-content:nth-child(3) .link{
-    background-color: #f0f0f0;
+    background-color: #dddddd;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -393,6 +395,7 @@ header .wrap nav .connect li a{
 /* banner-bottom */
 .banner_Bottom{
     margin-top: 15px;
+    padding-right: 10px;
 }
 .banner_Bottom .banner_B{}
 .banner_Bottom .banner_B .swiper-wrapper{
@@ -443,7 +446,7 @@ header .wrap nav .connect li a{
 }
 .banner_Bottom .banner_B .swiper-button-prev::after{}
 .banner_Bottom .swiper-pagination-bullet-active {
-    background-color: #000;
+    background-color: #3874e1;;
     width: 25px;
     border-radius: 50px;
 }
@@ -557,7 +560,9 @@ header .wrap nav .connect li a{
 }
 
 /* section3 */
-.section3{}
+.section3{
+    margin-bottom: 20px;
+}
 .section3 .wrap{}
 .section3 .wrap .tit{}
 .section3 .wrap .tit h1{
@@ -566,6 +571,7 @@ header .wrap nav .connect li a{
     font-family: 'Apple SD Gothic Neo';
     font-weight: 700;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 .section3 .wrap .sec3_scroll{}
 .section3 .wrap .sec3_scroll .swiper-wrapper{}
@@ -605,15 +611,16 @@ header .wrap nav .connect li a{
 }
 .section3 .wrap .sec3_scroll .swiper-scrollbar{
     width: 60%;
+    margin-left: 10px;
 }
 .section3 .wrap .sec3_scroll .swiper-scrollbar-horizontal{
     background-color: #9c9797;
-    height: 7px;
+    height: 5px;
     border-radius: 0;
 }
 .section3 .wrap .sec3_scroll .swiper-scrollbar-drag{
     background-color: #3874e1;
-    height: 7px;
+    height: 5px;
     border-radius: 0;
 }
 .section3 .swiper-button-next{display: none;}
@@ -622,15 +629,15 @@ header .wrap nav .connect li a{
 /* section4 */
 .section4{
     background-color: #000;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 20px 10px;
     position: relative;
 }
 .section4 .wrap{
-    padding-bottom: 100px;
 }
 .section4 .wrap .txt{
     margin-top: 15px;
     z-index: 9999;
+    position: relative;
 }
 .section4 .wrap .txt p{
     font-family:'Apple SD Gothic Neo';
@@ -710,20 +717,21 @@ header .wrap nav .connect li a{
 }
 .section4 .wrap .sec4_scroll .swiper-scrollbar-horizontal{
     background-color: #9c9797;
-    height: 7px;
+    height: 5px;
     border-radius: 0;
 }
 .section4 .wrap .sec4_scroll .swiper-scrollbar-drag{
     background-color: #3874e1;
-    height: 7px;
+    height: 5px;
     border-radius: 0;
 }
 .section4 .wrap .backImg{
     position: absolute;
-    bottom: 0;
+    top:40px;
     z-index: 0;
     left: 0;
-    opacity: 0.7;
+    width: 100%;
 }
 .section4 .wrap .backImg img{
+    width: 100%;
 }
