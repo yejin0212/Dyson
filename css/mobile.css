@@ -666,7 +666,7 @@ header .wrap nav .connect li a{
     margin-bottom: 30px;
 }
 .section4 .wrap .sec4_scroll .swiper-wrapper .swiper-slide{
-    background-color: #e7e7e7;
+    background-color: #fff;
     border-radius: 16px ;
     display: flex;
     flex-direction: column;
@@ -726,5 +726,4 @@ header .wrap nav .connect li a{
     opacity: 0.7;
 }
 .section4 .wrap .backImg img{
-    width: 350px;
 }
