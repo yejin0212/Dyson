@@ -883,4 +883,246 @@
         font-size: 20px;
     }
 
+
+    /* section6 */
+    .section6{}
+    .section6 .wrap{}
+    .section6 .wrap .tit{
+        margin: 20px 10px 30px 10px;
+        text-align: center;
+    }
+    .section6 .wrap .tit h1{
+        color: #3874e1;
+        font-size: 30px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+    }
+    .section6 .wrap .sec6_slide{
+    }
+    .section6 .wrap .swiper-wrapper{}
+    .section6 .wrap .swiper-slide{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6 .wrap .sec6_slide .image{
+        margin-bottom: 15px;
+        width: 280px;
+        height: 280px;
+    }
+    .section6 .wrap .sec6_slide .image img{
+    }
+    .section6 .wrap .sec6_slide .text{
+        width: 280px;
+        margin: 0 auto;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .section6 .wrap .sec6_slide .type{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    .section6 .wrap .sec6_slide .type>p{
+        padding: 4px;
+        display: inline;
+        border-radius: 4px;
+        border: 1px solid #000;
+        font-size: 12px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+    }
+    .section6 .wrap .sec6_slide .type .like{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6 .wrap .sec6_slide .type .like span{
+        font-size: 10px;
+        color: #aeaeae;
+    }
+    .section6 .wrap .sec6_slide .type .like p{
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 300;
+        font-size: 12px;
+        color: #aeaeae;
+    }
+    .section6 .wrap .sec6_slide h2{
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .section6 .wrap .sec6_slide .exp{
+        font-size: 13px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .section6 .wrap .sec6_slide .benefit{
+        font-size: 11px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 200;
+        margin-bottom: 18px;
+    }
+    .section6 .wrap .sec6_slide .benefit p{
+        line-height: 20px;
+    }
+    .section6 .wrap .sec6_slide .text_bottom{
+        background-color: #000;
+        border-radius: 6px;
+        text-align: center;
+        padding: 10px;
+    }
+    .section6 .wrap .sec6_slide .text_bottom span{
+        font-size: 16px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+        color: #fff;
+    }
+    .section6 .swiper-pagination-bullet-active {
+        background-color: #3874e1;;
+        width: 25px;
+        border-radius: 50px;
+    }
+    .section6 .swiper-button-next{display: none;}
+    .section6 .swiper-button-prev{display: none;}
+
+
+    /* section7 */
+    .section7{}
+    .section7 .wrap{
+        background-color:unset;
+        padding: 20px 0 100px 20px;
+        border-bottom: 1px solid #000;
+        display: flex;
+    }
+    .section7 .wrap .titImg{
+        position: relative;
+    }
+    .section7 .wrap .titImg .exp{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section7 .wrap .titImg img{
+        width: 530px;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.5);
+    }
+    .section7 .wrap .exp{
+    }
+    .section7 .wrap .titImg p {
+        background-color: #fff;
+        border-radius: 50px;
+        font-size: 16px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 500;
+        text-align: center;
+        padding: 5px 13px;
+    }
+
+    .section7 .wrap .contents{
+        position: relative;
+        padding: 30px 0 40px 80px;
+        width: 70%;
+        background-color: #f8f7f7;
+    }
+    .section7 .wrap .contents .tit{
+        display: flex;
+        align-items: center;
+    }
+    .section7 .wrap .contents .tit h1{
+        color: #000;
+        font-size: 27px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+        margin-right: 8px;
+    }
+    .section7 .wrap .contents .tit span{
+        font-weight: 600;
+        font-size: 27px;
+        padding-bottom: 4px;
+    }
+    .section7 .wrap .contents h2{
+        font-size: 16px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 500;
+        width: unset;
+        margin: 10px 0;
+    }
+    .section7 .wrap .contents .sec7_scroll{
+        width: 100%;
+        margin-right: auto;
+        
+    }
+    .section7 .wrap .contents .sec7_scroll .swiper-initialized{
+    }
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper{
+        margin-bottom: 50px;
+    }
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide{}
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide img{
+        width: 100%
+    }
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt{}
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt h3{
+        font-size: 16px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+        margin: 15px 0;
+    }
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt .high{
+        font-size: 14px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+        color: #3874e1;
+    }   
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt .low{
+        font-size: 16px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 700;
+    }
+    .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt p{}
+    .section7 .view-more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+    }
+    .section7 .view-more span{
+        padding: 15px 18px; 
+        background-color: #3874e1;
+        border-radius: 50px;
+        font-family: 'Apple SD Gothic Neo';
+        font-weight: 300;
+        font-size: 14px;
+        color: #fff;
+    }
+    .section7 .wrap .sec7_scroll .swiper-scrollbar{
+        width:40%;
+    }
+    .section7 .wrap .sec7_scroll .swiper-scrollbar-horizontal{
+        background-color: #9c9797;
+        height: 5px;
+        border-radius: 0;
+    }
+    .section7 .wrap .sec7_scroll .swiper-scrollbar-drag{
+        background-color: #000;
+        height: 5px;
+        border-radius: 0;
+    }
+
+
 }
