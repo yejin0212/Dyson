@@ -915,7 +915,14 @@ header .wrap nav .connect li a{
     text-align: center;
     padding: 10px;
 }
-.section6 .wrap .sec6_slide .text_bottom span{
+.section6 .wrap .sec6_slide .text_bottom button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.section6 .wrap .sec6_slide .text_bottom a{
     font-size: 16px;
     font-family: 'Apple SD Gothic Neo';
     font-weight: 700;
@@ -956,7 +963,9 @@ header .wrap nav .connect li a{
     width: 80%;
     margin: 10px 0;
 }
-.section7 .wrap .contents .sec7_scroll{}
+.section7 .wrap .contents .sec7_scroll{
+    margin-bottom: 30px;
+}
 .section7 .wrap .contents .sec7_scroll .swiper-wrapper{
     margin-bottom: 30px;
 }
@@ -989,7 +998,7 @@ header .wrap nav .connect li a{
     align-items: center;
 
 }
-.section7 .view-more span{
+.section7 .view-more a{
     padding: 10px 14px; 
     background-color: #3874e1;
     border-radius: 50px;
@@ -1013,7 +1022,9 @@ header .wrap nav .connect li a{
 }
 
 /*section8 */
-.section8{}
+.section8{
+    margin: 20px 0;
+}
 .section8 .wrap{
     padding: 0 10px;
 }
@@ -1029,13 +1040,14 @@ header .wrap nav .connect li a{
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 3px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 100px;
     border-radius: 12px;
-    padding: 5px 10px;
+    padding:15px;
     width: 50%;
     margin-top: auto;
 }
+.section8 .row1 p{display: none;}
 .section8 .wrap .row1 .row1-1 h1{
     font-family: 'Apple SD Gothic Neo';
     font-size: 19px;
@@ -1149,3 +1161,118 @@ header .wrap nav .connect li a{
     text-align: center;
 }
 
+/* section9 */
+.section9{
+    background: linear-gradient(to right, rgba(236, 108, 64, 1), rgba(196, 48, 97, 1), rgba(170, 52, 99, 1), rgba(170, 39, 116, 1), rgba(207, 86, 94, 1));
+    height: 111px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section9 .wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section9 .wrap h2{
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+.section9 .wrap button{
+    border-radius: 50px;
+    background-color: #ed5158;
+    padding: 7px 30px;
+}
+.section9 .wrap button a{
+   
+    font-family: 'Apple SD Gothic Neo';
+    color: #fff;
+    font-weight: 500;
+
+}
+
+/* footer */
+footer{
+    background-color: #f5f5f7;
+}
+footer .wrap {}
+footer .wrap .footerTop{
+}
+footer .wrap .footerTop .footer_navi{}
+footer .wrap .footerTop .footer_navi li{}
+footer .wrap .footerTop .footer_navi li .tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #a4a4a4;
+}
+footer .wrap .footerTop .footer_navi li .tit span:first-child{
+    font-size: 8px;
+    font-weight: 600;
+    font-family: 'Apple SD Gothic Neo';
+}
+footer .wrap .footerTop .footer_navi li .sub-navi{
+    display: none;
+}
+footer .wrap .footerTop .footer_navi li .sub-navi ul{}
+footer .wrap .footerTop .footer_navi li .sub-navi ul li{}
+footer .wrap .footerTop .footer_navi li .sub-navi ul li:last-child{
+    border-bottom: 1px solid #a4a4a4;
+    padding-bottom: 8px;
+}
+footer .wrap .footerTop .footer_navi li .sub-navi ul li a{
+    font-family: 'Apple SD Gothic Neo';
+    font-size: 8px;
+    padding: 3px 10px;
+}
+footer .wrap .footerBottom{
+}
+footer .wrap .footerBottom .top{
+    border-bottom: 1px solid #a4a4a4;
+}
+footer .wrap .footerBottom .top p{
+    font-family: 'Apple SD Gothic Neo';
+    font-size: 8px;
+    padding: 10px 10px 0 10px;
+}
+footer .wrap .footerBottom .top .cont{
+    display: flex;
+}
+footer .wrap .footerBottom .top .cont li{
+    padding: 0 0 10px 10px;
+}
+footer .wrap .footerBottom .top .cont li a{
+    font-family: 'Apple SD Gothic Neo';
+    font-size: 8px;
+    margin-right: 10px;
+}
+footer .wrap .footerBottom .bottom{
+    margin: 10px 0
+    ;
+}
+footer .wrap .footerBottom .bottom ul{
+    display: flex;
+}
+footer .wrap .footerBottom .bottom ul li{
+    display: flex;
+    font-size: 8px;
+
+}
+footer .wrap .footerBottom .bottom ul li p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+footer .wrap .footerBottom .bottom ul li p a{
+    font-family: 'Apple SD Gothic Neo';
+    font-size: 8px;
+}
+footer .wrap .footerBottom .bottom ul li span{}
