@@ -275,7 +275,7 @@ header .wrap nav .connect li a{
 .banner .wrap .banner_Top .tab-content .tabSlide .swiper-wrapper .product p{
     font-family:'Apple SD Gothic Neo' ;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     position: absolute;
     top: 30px;
@@ -427,7 +427,7 @@ header .wrap nav .connect li a{
 }
 .banner_Bottom .banner_B .swiper-wrapper .swiper-slide a .txt p:nth-child(1){
     font-family:'Apple SD Gothic Neo' ;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -455,7 +455,7 @@ header .wrap nav .connect li a{
 .section1{
 }
 .section1 .wrap{
-    padding: 30px 20px;
+    padding: 30px 10px;
 }
 .section1 .wrap h3{
     color: #3874e1;
@@ -468,28 +468,34 @@ header .wrap nav .connect li a{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    overflow: scroll;
+}
+.section1 .wrap .tabs::-webkit-scrollbar{
+    display: none;
 }
 .section1 .wrap .tabs .tab{
     display: block;
+    margin-right: 20px;
 }
 .section1 .wrap .tabs .tab h4{
-    font-size: 11px;
+    font-size: 18px;
     font-family:'Apple SD Gothic Neo' ;
     color:#c6c6c6;
-    font-weight: 300;
+    font-weight: 700;
+    text-wrap: nowrap;
 }
 .section1 .wrap .tabs .tab:nth-child(1) h4{
-    font-size: 16px;
+    font-size: 18px;
     font-family:'Apple SD Gothic Neo' ;
     color: #000;
-    font-weight: 900;
+    font-weight: 700;
 }
 .section1 .wrap .tabs .tab:nth-child(1)  span{
     color: #000;
     font-weight: bolder;
 }
 .section1 .wrap .tabs .tab span{
-    font-weight: 300;
+    font-weight: 700;
     color: #c6c6c6;
 }
 .section1 .wrap .contents{
@@ -513,7 +519,7 @@ header .wrap nav .connect li a{
 
 /* section2 */
 .section2{
-    margin: 20px 0;
+    margin-bottom: 30px;
     background-color: #000;
     padding: 10px 0 0 10px;
 }
@@ -536,9 +542,10 @@ header .wrap nav .connect li a{
 }
 .section2 .wrap .text h3{
     font-family:'Apple SD Gothic Neo' ;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
-    color: #8c8c8c;
+    color: #fff;
+    opacity: calc(0.5);
     margin-bottom: 40px;
 }
 .section2 .wrap .text h3 span{
@@ -578,7 +585,7 @@ header .wrap nav .connect li a{
 .section3 .wrap .sec3_scroll{}
 .section3 .wrap .sec3_scroll .swiper-wrapper{}
 .section3 .wrap .sec3_scroll .swiper-wrapper .swiper-slide{
-    margin-bottom: 30PX;
+    margin-bottom: 30px;
 }
 .section3 .wrap .sec3_scroll .swiper-wrapper .swiper-slide a{
     position: relative;
@@ -601,7 +608,7 @@ header .wrap nav .connect li a{
     border-radius: 16px;
 }
 .section3 .wrap .sec3_scroll a p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Apple SD Gothic Neo';
     font-weight: 600;
     position: absolute;
@@ -628,12 +635,9 @@ header .wrap nav .connect li a{
 
 /* section4 */
 .section4{
-    padding: 20px 0;
     background-color: #efefef;
 }
 .section4 .wrap{
-    border-radius: 16px;
-    margin: 0 15px;
     background-color: #000;
     padding: 10px 0 20px 10px;
     position: relative;
@@ -656,11 +660,12 @@ header .wrap nav .connect li a{
 }
 .section4 .wrap .txt p{
     font-family:'Apple SD Gothic Neo';
-    font-size: 15px;
-    color: #848388;
+    font-size: 18px;
+    color: #fff;
+    opacity: calc(0.5);
     font-weight: 700;
-    width: 70%;
     margin-bottom: 50px;
+    margin-top: 10px;
 }
 .section4 .wrap .txt .view-more{
     display: flex;
@@ -741,7 +746,7 @@ header .wrap nav .connect li a{
 
 /* section5 */
 .section5{
-    padding: 20px;
+    padding: 30px 10px;
     background-color: #efefef;
 }
 .section5 .wrap{}
@@ -760,9 +765,11 @@ header .wrap nav .connect li a{
     left: 50%;
     transform: translate(-50%,-50%);
     color: #fff;
-    font-size: 22px;
-    font-family:'Apple SD Gothic Neo';
-    
+    font-size: 23px;
+    font-family:'Apple SD Gothic Neo';  
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
 }
 .section5 .wrap .conts{
     display: flex;
@@ -783,7 +790,7 @@ header .wrap nav .connect li a{
   
 }
 .section5 .wrap .conts .con_left .con img{
-    border-radius: 16px;
+    /* border-radius: 16px; */
     filter: brightness(40%);
     height: 76px;
     width: 100%;
@@ -800,6 +807,8 @@ header .wrap nav .connect li a{
     color: #fff;
     font-family:'Apple SD Gothic Neo';
     font-weight: 600;
+    width: 100%;
+    text-align: center;
 }
 .section5 .wrap .conts .con_right{
     width: 50%;
@@ -811,7 +820,7 @@ header .wrap nav .connect li a{
     position: relative;
 }
 .section5 .wrap .conts .con_right .con img{
-    border-radius: 16px;
+    /* border-radius: 16px; */
     filter: brightness(40%);
     height: 76px;
     width: 100%;
@@ -825,13 +834,17 @@ header .wrap nav .connect li a{
     color: #fff;
     font-family:'Apple SD Gothic Neo';
     font-weight: 600;
+    width: 100%;
+    text-align: center;
 }
 
 /* section6 */
 .section6{}
-.section6 .wrap{}
+.section6 .wrap{
+    padding: 0 10px;
+}
 .section6 .wrap .tit{
-    margin: 20px 0 30px 10px;
+    margin: 0 0 15px 10px;
 }
 .section6 .wrap .tit h3{
     color: #3874e1;
@@ -843,17 +856,16 @@ header .wrap nav .connect li a{
 }
 .section6 .wrap .swiper-wrapper{}
 .section6 .wrap .swiper-slide{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .section6 .wrap .sec6_slide .image{
     margin-bottom: 15px;
 }
 .section6 .wrap .sec6_slide .image img{
+    width: 100%;
 }
 .section6 .wrap .sec6_slide .text{
-    width: 320px;
     margin: 0 auto;
-    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -936,16 +948,21 @@ header .wrap nav .connect li a{
 .section6 .swiper-button-prev{display: none;}
 
 /* section7 */
-.section7{}
+.section7{
+    border-bottom: 1px solid #a7a7a7;
+}
 .section7 .wrap{
     background-color: #f8f7f7;
-    padding: 20px 0 20px 20px;
+    padding: 30px 0 30px 10px;
 }
 .section7 .wrap .titImg{}
 .section7 .wrap .titImg img{}
 .section7 .wrap .titImg p {}
 .section7 .wrap .contents{}
-.section7 .wrap .contents .tit{}
+.section7 .wrap .contents .tit{
+    display: flex;
+    justify-content: space-between;
+}
 .section7 .wrap .contents .tit h3{
     color: #3874e1;
     font-size: 23px;
@@ -1035,20 +1052,19 @@ header .wrap nav .connect li a{
 }
 .section8 .wrap .row1 .row1-1{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 100px;
     border-radius: 12px;
-    padding:15px;
+    padding:12px;
     width: 50%;
     margin-top: auto;
 }
 .section8 .row1 p{display: none;}
 .section8 .wrap .row1 .row1-1 h3{
     font-family: 'Apple SD Gothic Neo';
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
 }
 .section8 .wrap .row1 .row1-1 span{
@@ -1071,6 +1087,7 @@ header .wrap nav .connect li a{
     color: #fff;
     font-family: 'Apple SD Gothic Neo';
     font-weight: 700;
+    font-size: 15px;
 }
 .section8 .wrap .row2{
     display: flex;
@@ -1099,6 +1116,7 @@ header .wrap nav .connect li a{
     font-weight: 700;
     width: 100%;
     text-align: center;
+    font-size: 15px;
 }
 .section8 .wrap .row2 .row2-2{position: relative;}
 .section8 .wrap .row2 .row2-2 .image{
@@ -1115,6 +1133,7 @@ header .wrap nav .connect li a{
     color: #fff;
     font-family: 'Apple SD Gothic Neo';
     font-weight: 700;
+    font-size: 15px;
 }
 .section8 .wrap .row3{
     display: flex;
@@ -1138,6 +1157,7 @@ header .wrap nav .connect li a{
     font-weight: 700;
     width: 100%;
     text-align: center;
+    font-size: 15px;
 }
 .section8 .wrap .row3 .row3-2{
     position: relative;
@@ -1157,6 +1177,7 @@ header .wrap nav .connect li a{
     font-weight: 700;
     width: 100%;
     text-align: center;
+    font-size: 15px;
 }
 
 /* section9 */
@@ -1178,7 +1199,7 @@ header .wrap nav .connect li a{
 .section9 .wrap h4{
     font-family: 'Apple SD Gothic Neo';
     font-weight: 600;
-    font-size: 12px;
+    font-size: 15px;
     color: #fff;
     line-height: 20px;
     margin-bottom: 6px;
@@ -1189,11 +1210,10 @@ header .wrap nav .connect li a{
     padding: 7px 30px;
 }
 .section9 .wrap button a{
-   
     font-family: 'Apple SD Gothic Neo';
     color: #fff;
     font-weight: 500;
-
+    font-size: 14px;
 }
 
 /* footer */
@@ -1214,7 +1234,7 @@ footer .wrap .footerTop .footer_navi li .tit{
     border-bottom: 1px solid #a4a4a4;
 }
 footer .wrap .footerTop .footer_navi li .tit span:first-child{
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 600;
     font-family: 'Apple SD Gothic Neo';
 }
@@ -1239,40 +1259,40 @@ footer .wrap .footerBottom .top{
 }
 footer .wrap .footerBottom .top p{
     font-family: 'Apple SD Gothic Neo';
-    font-size: 8px;
+    font-size: 10px;
     padding: 10px 10px 0 10px;
 }
 footer .wrap .footerBottom .top .cont{
     display: flex;
+    flex-direction: column;
 }
 footer .wrap .footerBottom .top .cont li{
-    padding: 0 0 10px 10px;
+    padding: 0 0 0px 10px;
 }
 footer .wrap .footerBottom .top .cont li a{
     font-family: 'Apple SD Gothic Neo';
-    font-size: 8px;
+    font-size: 10px;
     margin-right: 10px;
 }
 footer .wrap .footerBottom .bottom{
-    margin: 10px 0
-    ;
+    margin: 10px 0;
 }
 footer .wrap .footerBottom .bottom ul{
     display: flex;
 }
 footer .wrap .footerBottom .bottom ul li{
     display: flex;
-    font-size: 8px;
+    font-size: 10px;
 
 }
 footer .wrap .footerBottom .bottom ul li p{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 footer .wrap .footerBottom .bottom ul li p a{
     font-family: 'Apple SD Gothic Neo';
-    font-size: 6px;
+    font-size: 10px;
 }
 footer .wrap .footerBottom .bottom ul li span{
-    font-size: 6px;
+    font-size: 10px;
 }
