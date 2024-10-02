@@ -248,11 +248,11 @@ header .wrap nav .connect li a{
     font-family: 'Apple SD Gothic Neo';
     font-size: 17px;
     font-weight: 700;
-    border-bottom: 5px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
     padding: 4px 20px;
 }
 .banner .wrap .banner_Top .tabs .tab:first-child{
-    border-bottom: 5px solid #000;
+    border-bottom: 2px solid #000;
 }
 .banner .wrap .banner_Top .tab-content:first-child{
     display: block;
@@ -457,7 +457,7 @@ header .wrap nav .connect li a{
 .section1 .wrap{
     padding: 30px 20px;
 }
-.section1 .wrap h1{
+.section1 .wrap h3{
     color: #3874e1;
     font-size: 23px;
     font-family:'Apple SD Gothic Neo' ;
@@ -472,13 +472,13 @@ header .wrap nav .connect li a{
 .section1 .wrap .tabs .tab{
     display: block;
 }
-.section1 .wrap .tabs .tab h2{
+.section1 .wrap .tabs .tab h4{
     font-size: 11px;
     font-family:'Apple SD Gothic Neo' ;
     color:#c6c6c6;
     font-weight: 300;
 }
-.section1 .wrap .tabs .tab:nth-child(1) h2{
+.section1 .wrap .tabs .tab:nth-child(1) h4{
     font-size: 16px;
     font-family:'Apple SD Gothic Neo' ;
     color: #000;
@@ -527,21 +527,21 @@ header .wrap nav .connect li a{
     background-color: #3874e1;
     padding: 5px 10px;
 }
-.section2 .wrap .text h1{
+.section2 .wrap .text h2{
     margin: 10px 0;
 }
-.section2 .wrap .text h1 img{
+.section2 .wrap .text h2 img{
     width: 196px;
     margin-left: 0;
 }
-.section2 .wrap .text h2{
+.section2 .wrap .text h3{
     font-family:'Apple SD Gothic Neo' ;
     font-size: 19px;
     font-weight: 700;
     color: #8c8c8c;
     margin-bottom: 40px;
 }
-.section2 .wrap .text h2 span{
+.section2 .wrap .text h3 span{
     color: #fff;
 }
 .section2 .wrap .text .button{
@@ -549,7 +549,8 @@ header .wrap nav .connect li a{
     margin-bottom: 10px;
     gap: 15px;
 }
-.section2 .wrap .text  button{}
+.section2 .wrap .text  button{
+}
 .section2 .wrap .text  button a{
     font-family:'Apple SD Gothic Neo' ;
     font-weight: 200;
@@ -557,6 +558,7 @@ header .wrap nav .connect li a{
     color: #fff;
     padding: 8px 15px;
     border: 1px solid #fff;
+    border-radius: 6px;
 }
 
 /* section3 */
@@ -565,7 +567,7 @@ header .wrap nav .connect li a{
 }
 .section3 .wrap{}
 .section3 .wrap .tit{}
-.section3 .wrap .tit h1{
+.section3 .wrap .tit h3{
     color: #3874e1;
     font-size: 23px;
     font-family: 'Apple SD Gothic Neo';
@@ -610,17 +612,15 @@ header .wrap nav .connect li a{
 
 }
 .section3 .wrap .sec3_scroll .swiper-scrollbar{
-    width: 60%;
-    margin-left: 10px;
 }
 .section3 .wrap .sec3_scroll .swiper-scrollbar-horizontal{
     background-color: #9c9797;
-    height: 5px;
+    height: 2px;
     border-radius: 0;
 }
 .section3 .wrap .sec3_scroll .swiper-scrollbar-drag{
     background-color: #3874e1;
-    height: 5px;
+    height: 2px;
     border-radius: 0;
 }
 .section3 .swiper-button-next{display: none;}
@@ -643,18 +643,18 @@ header .wrap nav .connect li a{
     z-index: 9999;
     position: relative;
 }
-.section4 .wrap .txt p{
+.section4 .wrap .txt span{
     font-family:'Apple SD Gothic Neo';
     font-size: 16px;
     color: #ba4c63;
 }
-.section4 .wrap .txt h1{
+.section4 .wrap .txt h3{
     font-family:'Apple SD Gothic Neo';
     font-size: 23px;
     font-weight: 700;
     color: #fff;
 }
-.section4 .wrap .txt h2{
+.section4 .wrap .txt p{
     font-family:'Apple SD Gothic Neo';
     font-size: 15px;
     color: #848388;
@@ -709,7 +709,7 @@ header .wrap nav .connect li a{
 .section4 .wrap .sec4_scroll .swiper-wrapper .swiper-slide .button button{
     padding: 8px 15px;
     background-color:#e1e1e1;
-    border-radius: 50px;
+    border-radius: 6px;
 }
 .section4 .wrap .sec4_scroll .swiper-wrapper .swiper-slide .button button a{
     font-family:'Apple SD Gothic Neo';
@@ -717,16 +717,15 @@ header .wrap nav .connect li a{
     font-weight: 700;
 }
 .section4 .wrap .sec4_scroll .swiper-scrollbar{
-    width: 60%;
 }
 .section4 .wrap .sec4_scroll .swiper-scrollbar-horizontal{
     background-color: #9c9797;
-    height: 5px;
+    height: 2px;
     border-radius: 0;
 }
 .section4 .wrap .sec4_scroll .swiper-scrollbar-drag{
     background-color: #3874e1;
-    height: 5px;
+    height: 2px;
     border-radius: 0;
 }
 .section4 .wrap .backImg{
@@ -755,7 +754,7 @@ header .wrap nav .connect li a{
     width: 100%;
     object-fit: cover;
 }
-.section5 .wrap .tit h1{
+.section5 .wrap .tit h3{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -834,7 +833,7 @@ header .wrap nav .connect li a{
 .section6 .wrap .tit{
     margin: 20px 0 30px 10px;
 }
-.section6 .wrap .tit h1{
+.section6 .wrap .tit h3{
     color: #3874e1;
     font-size: 23px;
     font-family: 'Apple SD Gothic Neo';
@@ -888,7 +887,7 @@ header .wrap nav .connect li a{
     font-size: 12px;
     color: #aeaeae;
 }
-.section6 .wrap .sec6_slide h2{
+.section6 .wrap .sec6_slide .name{
     font-family: 'Apple SD Gothic Neo';
     font-weight: 700;
     font-size: 20px;
@@ -947,7 +946,7 @@ header .wrap nav .connect li a{
 .section7 .wrap .titImg p {}
 .section7 .wrap .contents{}
 .section7 .wrap .contents .tit{}
-.section7 .wrap .contents .tit h1{
+.section7 .wrap .contents .tit h3{
     color: #3874e1;
     font-size: 23px;
     font-family: 'Apple SD Gothic Neo';
@@ -956,7 +955,7 @@ header .wrap nav .connect li a{
 .section7 .wrap .contents .tit span{
     font-weight: 600;
 }
-.section7 .wrap .contents h2{
+.section7 .wrap .contents>p{
     font-size: 12px;
     font-family: 'Apple SD Gothic Neo';
     font-weight: 700;
@@ -974,7 +973,7 @@ header .wrap nav .connect li a{
     background-color: tomato;
 }
 .section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt{}
-.section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt h3{
+.section7 .wrap .contents .sec7_scroll .swiper-wrapper .swiper-slide .txt h4{
     font-size: 13px;
     font-family: 'Apple SD Gothic Neo';
     font-weight: 700;
@@ -1001,23 +1000,22 @@ header .wrap nav .connect li a{
 .section7 .view-more a{
     padding: 10px 14px; 
     background-color: #3874e1;
-    border-radius: 50px;
+    border-radius: 6px;
     font-family: 'Apple SD Gothic Neo';
     font-weight: 300;
     font-size: 11px;
     color: #fff;
 }
 .section7 .wrap .sec7_scroll .swiper-scrollbar{
-    width: 60%;
 }
 .section7 .wrap .sec7_scroll .swiper-scrollbar-horizontal{
     background-color: #9c9797;
-    height: 5px;
+    height: 2px;
     border-radius: 0;
 }
 .section7 .wrap .sec7_scroll .swiper-scrollbar-drag{
     background-color: #3874e1;
-    height: 5px;
+    height: 2px;
     border-radius: 0;
 }
 
@@ -1048,7 +1046,7 @@ header .wrap nav .connect li a{
     margin-top: auto;
 }
 .section8 .row1 p{display: none;}
-.section8 .wrap .row1 .row1-1 h1{
+.section8 .wrap .row1 .row1-1 h3{
     font-family: 'Apple SD Gothic Neo';
     font-size: 19px;
     font-weight: 700;
@@ -1177,7 +1175,7 @@ header .wrap nav .connect li a{
     align-items: center;
     text-align: center;
 }
-.section9 .wrap h2{
+.section9 .wrap h4{
     font-family: 'Apple SD Gothic Neo';
     font-weight: 600;
     font-size: 12px;
@@ -1186,7 +1184,7 @@ header .wrap nav .connect li a{
     margin-bottom: 6px;
 }
 .section9 .wrap button{
-    border-radius: 50px;
+    border-radius: 6px;
     background-color: #ed5158;
     padding: 7px 30px;
 }
@@ -1273,6 +1271,8 @@ footer .wrap .footerBottom .bottom ul li p{
 }
 footer .wrap .footerBottom .bottom ul li p a{
     font-family: 'Apple SD Gothic Neo';
-    font-size: 8px;
+    font-size: 6px;
 }
-footer .wrap .footerBottom .bottom ul li span{}
+footer .wrap .footerBottom .bottom ul li span{
+    font-size: 6px;
+}
