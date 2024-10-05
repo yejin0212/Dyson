@@ -75,7 +75,7 @@
          url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Black.ttf') format('truetype');
 }
 
-#wrapper{max-width: 1920px; margin: 0 auto; min-width: 320px; }
+#wrapper{ margin: 0 auto; min-width: 320px; }
 header{
     padding: 0 20px;
 }
@@ -545,11 +545,11 @@ header .wrap nav .connect li a{
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    opacity: calc(0.5);
     margin-bottom: 40px;
 }
 .section2 .wrap .text h3 span{
     color: #fff;
+    opacity: calc(0.5);
 }
 .section2 .wrap .text .button{
     display: flex;
@@ -1255,7 +1255,7 @@ footer .wrap .footerTop .footer_navi li .sub-navi ul li a{
 footer .wrap .footerBottom{
 }
 footer .wrap .footerBottom .top{
-    border-bottom: 1px solid #a4a4a4;
+    /* border-bottom: 1px solid #a4a4a4; */
 }
 footer .wrap .footerBottom .top p{
     font-family: 'Apple SD Gothic Neo';
