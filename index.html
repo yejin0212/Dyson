@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo.css" type="text/css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">
@@ -210,12 +211,12 @@
                         <div class="tab">고객지원</div>
                         <div class="tab">이벤트</div>
                     </div>
-                    <div class="contents">
+                    <div class="contents" data-aos="fade-up" data-aos-delay="500">
                         <div class="tab-content">
                             <div class="swiper tabSlide">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_P2.png" alt="공기청정기">
+                                        <img src="./images/banner_P2.png" alt="공기청정기" >
                                         <p>공기청정기</p>
                                     </div>
                                     <div class="swiper-slide product">
@@ -227,7 +228,7 @@
                                         <p>조명</p>
                                     </div>
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_P6.jpg" alt="청소기">
+                                        <img src="./images/banner_P6.png" alt="청소기">
                                         <p>청소기</p>
                                     </div>
                                     <div class="swiper-slide product">
@@ -293,7 +294,7 @@
                     </div>
                 </div>
                 <div class="banner_Bottom">
-                    <div class="swiper banner_B">
+                    <div class="swiper banner_B" data-aos="fade-left" data-aos-delay="700">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="#">
@@ -361,10 +362,10 @@
                         <h4 class="pc">다이슨 빅+콰이엇 포름알데히드<br>공기청정기</h2>
                     </div>
                 </div>
-                <div class="contents">
+                <div class="contents" >
                     <div class="image">
                         <a href="#">
-                            <img src="./images/section1_1.jpg" alt="다이슨존 노이즈 캔슬링 헤드폰">
+                            <img src="./images/section1_1.jpg" alt="다이슨존 노이즈 캔슬링 헤드폰"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
                         </a>
                     </div>
                     <div class="image">
@@ -537,12 +538,12 @@
             </div>
         </div>
         <div class="section5">
-            <div class="wrap">
+            <div class="wrap" data-aos="fade-up" data-aos-delay="200">
                 <div class="tit">
                     <img src="./images/section5_tit.jfif" alt="선풍기">
                     <h3>다이슨 공식몰 구매혜택</h3>
                 </div>
-                <div class="conts">
+                <div class="conts" >
                     <div class="con_left">
                         <div class="con">
                             <a href="#">
@@ -799,7 +800,7 @@
                 </div>
             </div>
         </div>
-        <div class="section8">
+        <div class="section8"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
             <div class="wrap">
                 <div class="row1">
                     <div class="row1-1">
@@ -964,7 +965,10 @@
 <script src="./jquery/jquery-3.7.1.min.js"></script>
 <script src="./jquery/jquery-ui.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    AOS.init();
+
     //nav open,close
     const $opn = document.querySelector(".btn-open");
     const $cls = document.querySelector(".btn-cls");
@@ -1010,7 +1014,35 @@
       },
     });
 
-
+    //section3 슬라이드
+    var sec3 = new Swiper(".sec3_scroll", {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: false,
+            },
+            
+            breakpoints: {
+                800: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 30,
+                    navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                    },
+                },
+                1200: {
+                    slidesPerView: 6,
+                    spaceBetween: 30,
+                    navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                    },
+                }
+            },
+        });
+       
     // section4슬라이드
     var sec4 = new Swiper(".sec4_scroll", {
         slidesPerView: 1.5,
@@ -1020,6 +1052,9 @@
             hide: false,
         },
         breakpoints: {
+            800: {
+                slidesPerView: 2.5,
+            },
             1200: {
                 slidesPerView: 3,
                 loop: false,
@@ -1043,7 +1078,9 @@
             prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-                
+                800: {
+                    slidesPerView: 2.5,
+                },
                 1200: {
                     slidesPerView: 4,
                     loop: false,
@@ -1054,6 +1091,26 @@
         });
         
     
+    // section7 슬라이드
+    var bannerScroll = new Swiper(".sec7_scroll", {
+        direction: "horizontal",
+        spaceBetween: 10,
+        slidesPerView: 2.5,
+        freeMode: true,
+        
+        scrollbar: {
+            el: ".swiper-scrollbar",
+        },
+        breakpoints: {
+                800: {
+                    slidesPerView: 4.5,
+                },
+                1200: {
+                    spaceBetween: 20,
+                    slidesPerView: 4.5,
+                }
+            },
+    });
     
     //모바일 적용 js
     const NavMobile = function() {
@@ -1079,28 +1136,6 @@
             $(".image").eq(v).siblings().hide();
         })
 
-         //section3 슬라이드
-        var sec3 = new Swiper(".sec3_scroll", {
-            slidesPerView: 1.5,
-            spaceBetween: 20,
-            scrollbar: {
-                el: ".swiper-scrollbar",
-                hide: false,
-            },
-        });
-
-        // section7 슬라이드
-        var bannerScroll = new Swiper(".sec7_scroll", {
-            direction: "horizontal",
-            spaceBetween: 10,
-            slidesPerView: 2.5,
-            freeMode: true,
-            
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-        });
-
         //footer nav 메뉴 슬라이드
         $("footer .tit").on("click", function(){
             $(this).siblings().stop().slideToggle(300);
@@ -1121,7 +1156,6 @@
                 el: ".swiper-scrollbar",
             },
         });
-
         
         //section1 tab
         $(".section1 .tab").on("click", function(){
@@ -1132,32 +1166,11 @@
             $(".image").eq(d).siblings().hide();
         })
 
-        //section3 슬라이드
-        var sec3 = new Swiper(".sec3_scroll", {
-            slidesPerView: 6.5,
-            spaceBetween: 30,
-            navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        });
-
-        // section7 슬라이드
-        var bannerScroll = new Swiper(".sec7_scroll", {
-            direction: "horizontal",
-            spaceBetween: 20,
-            slidesPerView: 4.5,
-            freeMode: true,
-            
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-        });
-
         $("footer .tit").off("click", function(){
         })
        
     }
+    
     const HandleResponsiveEvent = function() {
         const winWidth = $(window).width();
         if(winWidth >= 992) {
