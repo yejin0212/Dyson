@@ -75,11 +75,7 @@
          url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Black.ttf') format('truetype');
 }
 
-<<<<<<< HEAD
-#wrapper{max-width: 1920px  ;  margin: 0 auto; min-width: 320px; }
-=======
 #wrapper{ max-width: 1920px; margin: 0 auto; min-width: 320px; }
->>>>>>> 51c7bed81a994ecf13eb2746ffbe9867f4782c89
 header{
     padding: 0 20px;
 }
