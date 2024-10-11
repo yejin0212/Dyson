@@ -1024,10 +1024,12 @@ header .wrap nav .connect li a{
 }
 .section8 .wrap .row2 .row2-1{
     position: relative;
+    
 }
 .section8 .wrap .row2 .row2-1 .image{
     height: 100%;
     object-fit: cover   ;
+    
 }
 .section8 .wrap .row2 .row2-1 .image img{
     border-radius: 12px;

@@ -83,14 +83,7 @@ p.tab{display: block;}
         height: 100%;
         padding:20px 30px ;
     }
-    .section8 .wrap .row1 .row1-1 p{
-        font-family: 'Apple SD Gothic Neo';
-        font-weight: 300;
-        font-size: 16px;
-        margin: 10px 0;
-        display: unset;
-        line-height: 20px;
-    }
+    
     .section8 .wrap .row1 .row1-1 h1{
         font-size: 23px;
     }
@@ -152,5 +145,7 @@ p.tab{display: block;}
         font-weight: 700;
     }
 
-
+    .section8 .wrap .row1 .row1-1 p{
+        display: none;
+    }
 }

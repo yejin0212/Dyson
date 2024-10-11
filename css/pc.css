@@ -1113,8 +1113,8 @@
     .section8 .wrap .row1 .row1-1 p{
         font-family: 'Apple SD Gothic Neo';
         font-weight: 300;
-        font-size: 12px;
-        line-height: 40px;
+        font-size: 18px;
+        line-height: 30px;
         margin: 10px 0;
         display: unset;
     }
@@ -1157,6 +1157,7 @@
         width: 100%;
         object-fit: cover;
         filter: unset;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .section8 .wrap .row2 .row2-1 span{
         font-size: 18px;
