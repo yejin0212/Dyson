@@ -207,37 +207,49 @@
             <div class="wrap">
                 <div class="banner_Top">
                     <div class="tabs">
-                        <div class="tab">모든제품</div>
-                        <div class="tab">고객지원</div>
-                        <div class="tab">이벤트</div>
+                        <button type="button" class="tab">모든제품</button>
+                        <button type="button" class="tab">고객지원</button>
+                        <button type="button" class="tab">이벤트</button>
                     </div>
                     <div class="contents" data-aos="fade-up" data-aos-delay="500">
                         <div class="tab-content">
                             <div class="swiper tabSlide">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_P2.png" alt="공기청정기" >
-                                        <p>공기청정기</p>
+                                        <a href="#">
+                                            <img src="./images/banner_P2.png" alt="공기청정기" >
+                                            <p>공기청정기</p>
+                                        </a>
                                     </div>
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_P1.png" alt="헤어케어">
-                                        <p>헤어케어</p>
+                                        <a href="#">
+                                            <img src="./images/banner_P1.png" alt="헤어케어">
+                                            <p>헤어케어</p>
+                                        </a>
                                     </div>
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_p3.png" alt="조명">
-                                        <p>조명</p>
+                                        <a href="#">
+                                            <img src="./images/banner_p3.png" alt="조명">
+                                            <p>조명</p>
+                                        </a>
                                     </div>
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_P6.png" alt="청소기">
-                                        <p>청소기</p>
+                                        <a href="#">
+                                            <img src="./images/banner_P6.png" alt="청소기">
+                                            <p>청소기</p>
+                                        </a>
                                     </div>
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_P4.png" alt="선풍기">
-                                        <p>선풍기</p>
+                                       <a href="#">
+                                            <img src="./images/banner_P4.png" alt="선풍기">
+                                            <p>선풍기</p>
+                                       </a>
                                     </div>
                                     <div class="swiper-slide product">
-                                        <img src="./images/banner_P5.png" alt="헤드폰">
-                                        <p>헤드폰</p>
+                                        <a href="#">
+                                            <img src="./images/banner_P5.png" alt="헤드폰">
+                                            <p>헤드폰</p>
+                                        </a>
                                     </div>
                                     <div class="swiper-scrollbar"></div>
                                 </div>
@@ -1080,12 +1092,13 @@
         breakpoints: {
                 800: {
                     slidesPerView: 2,
+                    spaceBetween:20,
                 },
                 1200: {
                     slidesPerView: 4,
                     loop: false,
                     centeredSlides: false,
-                    spaceBetween: 25,
+                    spaceBetween: 40,
                 }
             },
         });
