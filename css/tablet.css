@@ -66,6 +66,12 @@ p.tab{display: block;}
     .section6 .wrap .sec6_slide .text .text_top{
         height: 190px;
     }
+    .section7 .tit{
+        padding: 0 20px
+    }
+    .section7 .wrap .contents>p {
+        padding: 0 20px;
+    }
     /*section8 */
     .section8 .wrap{
         display: flex;
